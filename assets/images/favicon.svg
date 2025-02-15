@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:export>
+      <bx:file format="png" path="favicon.png"/>
+    </bx:export>
+  </defs>
+  <path d="M 1.102 7.331 L 15.102 7.331 L 15.102 10.331 L 4.102 10.331 L 4.102 21.67 L 15.102 21.67 L 15.102 24.67 L 1.102 24.67 L 1.102 7.331 Z" style="stroke: rgb(204, 204, 204); stroke-width: 0.25px; fill: rgb(172, 51, 223);"/>
+  <path d="M 17 7.331 L 21.001 7.331 L 21.001 4.67 L 24.001 4.67 L 24.001 7.331 L 31 7.331 L 31 10.331 L 24.001 10.331 L 24.001 21.65 L 30.725 21.65 L 30.725 24.65 L 24.001 24.65 L 24.001 24.67 L 21.001 24.67 L 21.001 10.331 L 17 10.331 L 17 7.331 Z" style="stroke: rgb(204, 204, 204); stroke-width: 0.25px; fill: rgb(64, 246, 96);"/>
+</svg>

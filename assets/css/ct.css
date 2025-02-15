@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: "Noto Sans JP", serif;
+  color: #ddd;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: #012;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: #1e90ff;
+}
+a:hover {
+  color: #3fb2ff;
+}
+a:active {
+  color: orangered;
+}
+a:visited {
+  color: deepskyblue;
+}
+
+@media (min-width: 720px) {
+  body {
+    align-items: center;
+  }
+  .cWidth, .cbox, .contentMenu {
+    max-width: 720px;
+  }
+}
+@media (max-width: 719px) {
+  body {
+    align-items: stretch;
+  }
+  .cWidth, .cbox, .contentMenu {
+    max-width: none;
+  }
+}
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.cbox, .contentMenu {
+  max-width: 720px;
+  width: 720px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px 20px;
+}
+
+main.cbox, main.contentMenu {
+  padding: 20px;
+}
+
+header > div.cbox, header > div.contentMenu {
+  display: flex;
+  height: 72px;
+  background-color: rgba(255, 255, 255, 0.2);
+  align-items: center;
+}
+
+footer > div.cbox, footer > div.contentMenu {
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+header {
+  width: 100%;
+  height: 72px;
+}
+
+.contentMenu {
+  display: flex;
+  background-color: rgba(200, 200, 255, 0.15);
+  padding: 0;
+  height: 48px;
+}
+
+.contentMenu > .menuItem {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  text-decoration: none;
+  color: #ddd;
+  cursor: pointer;
+  gap: 10px;
+  height: 48px;
+}
+.contentMenu > .menuItem:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.contentMenu > .menuItem:not(:first-child) {
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  height: 56px;
+  margin: auto auto 0 auto;
+}
+
+.headerContent {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerContent > .left {
+  flex-grow: 1;
+}
+
+.headerContent > .right {
+  display: flex;
+}
+.headerContent > .right a {
+  margin-top: auto;
+}
+.headerContent > .right a > img {
+  height: 24px;
+  vertical-align: bottom;
+}
+
+img.logo {
+  height: 32px;
+}
+
+.content {
+  font-size: 14px;
+}
+.content > h1 {
+  font-size: 24px;
+}
+.content > h2 {
+  font-size: 18px;
+}
+.content > p {
+  padding: 10px;
+}
+.content > ul {
+  padding-left: 48px;
+}
+
+.app {
+  display: table;
+}
+.app .row {
+  display: table-row;
+}
+.app div.icon {
+  display: table-cell;
+  vertical-align: top;
+  width: 64px;
+}
+.app div.icon img {
+  height: 48px;
+}
+.app div.info {
+  display: table-cell;
+  vertical-align: top;
+}
+.app div.info h1 {
+  font-size: 1.5em;
+}
+.app div.info div {
+  padding: 10px;
+}
+.app div.info div.badges img {
+  height: 32px;
+}
+.app div.info div.badges a:not(:first-child) {
+  margin-left: 10px;
+}
+.app:not(:first-child) {
+  margin-top: 32px;
+}
+
+/*# sourceMappingURL=ct.css.map */
